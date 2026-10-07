@@ -1,0 +1,23 @@
+{
+  "public_settings": {
+    "available_until": 0,
+    "read_only": true,
+    "available_until_verbose": {
+      "enabled": true,
+      "value": 0
+    },
+    "password": "string",
+    "password_verbose": {
+      "enabled": true,
+      "value": "string"
+    },
+    "external_organization_id": "string",
+    "external_organization_id_verbose": {
+      "enabled": true,
+      "value": "string"
+    },
+    "accesses": [
+      {}
+    ]
+  }
+}

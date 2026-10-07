@@ -1,0 +1,260 @@
+{
+  "type": "object",
+  "required": [
+    "items"
+  ],
+  "properties": {
+    "items": {
+      "type": "array",
+      "required": [
+        "path",
+        "type",
+        "name",
+        "created",
+        "modified"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "created": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "modified": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "size": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "mime_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "md5": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "preview": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "public_key": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "public_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "_embedded": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "path",
+            "items"
+          ],
+          "properties": {
+            "total": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "limit": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "offset": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            },
+            "path": {
+              "type": "string"
+            },
+            "sort": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "items": {
+              "type": "array"
+            }
+          }
+        },
+        "media_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "file": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "resource_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "share": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "required": [
+            "rights"
+          ],
+          "properties": {
+            "is_owned": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "is_root": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "rights": {
+              "type": "string"
+            }
+          }
+        },
+        "revision": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "comment_ids": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "public_resource": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "private_resource": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          }
+        },
+        "custom_properties": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "exif": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "properties": {
+            "date_time": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "format": "date-time"
+            },
+            "gps_latitude": {
+              "type": [
+                "object",
+                "null"
+              ]
+            },
+            "gps_longitude": {
+              "type": [
+                "object",
+                "null"
+              ]
+            }
+          },
+          "antivirus_status": {
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "photoslice_time": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "sizes": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "properties": {
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "limit": {
+      "type": ["integer", "null"]
+    }
+  }
+}

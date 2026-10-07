@@ -1,0 +1,166 @@
+{
+  "type": "object",
+  "properties": {
+    "total_space": {
+      "type": ["integer","null"]
+    },
+    "used_space": {
+      "type": ["integer","null"]
+    },
+    "trash_size": {
+      "type": ["integer","null"]
+    },
+    "max_file_size": {
+      "type": ["integer","null"]
+    },
+    "paid_max_file_size": {
+      "type": ["integer","null"]
+    },
+    "photounlim_size": {
+      "type": ["integer","null"]
+    },
+    "mail_size": {
+      "type": ["integer","null"]
+    },
+    "disk_size": {
+      "type": ["integer","null"]
+    },
+    "file_size_limit_upgrades": {
+      "type": ["object","null"],
+      "properties": {
+        "paid": {
+          "type": ["integer","null"]
+        },
+        "pro": {
+          "type": ["integer","null"]
+        }
+      }
+    },
+    "system_folders": {
+    "type": ["object", "null"],
+    "properties": {
+      "downloads": {
+        "type": ["string","null"]
+      },
+      "applications": {
+        "type": ["string","null"]
+      },
+      "screenshots": {
+        "type": ["string","null"]
+      },
+      "photostream": {
+        "type": ["string","null"]
+      },
+      "social": {
+        "type": ["string","null"]
+      },
+      "facebook": {
+        "type": ["string","null"]
+      },
+      "google": {
+        "type": ["string","null"]
+      },
+      "instagram": {
+        "type": ["string","null"]
+      },
+      "vkontakte": {
+        "type": ["string","null"]
+      },
+      "mailru": {
+        "type": ["string","null"]
+      },
+      "odnoklassniki": {
+        "type": ["string","null"]
+      },
+      "scans": {
+        "type": ["string","null"]
+      },
+      "attach": {
+        "type": ["string","null"]
+      },
+      "messenger": {
+        "type": ["string","null"]
+      },
+      "calendar": {
+        "type": ["string","null"]
+      }
+    }},
+    "is_paid": {
+      "type": ["boolean","null"]
+    },
+    "revision": {
+      "type": ["integer","null"]
+    },
+    "user": {
+      "type": ["object","null"],
+      "properties": {
+            "uid": {
+              "type": ["string","null"]
+            },
+            "login": {
+            "type": ["string","null"]
+          },
+            "display_name": {
+            "type": ["string","null"]
+          },
+            "country": {
+            "type": ["string","null"]
+          },
+            "is_child": {
+            "type": ["boolean","null"]
+          },
+            "reg_time": {
+            "type": ["string","null"],
+              "format": "data-time"
+          }
+          }},
+    "unlimited_autoupload_enabled": {
+      "type": ["boolean","null"]
+    },
+    "reg_time": {
+      "type": ["string","null"],
+      "format": "data-time"
+    },
+    "is_idm_managed_public_access": {
+      "type": ["boolean","null"]
+    },
+    "is_idm_managed_folder_address_access": {
+      "type": ["boolean","null"]
+    },
+    "is_sync_shared_folder_desktop": {
+      "type": ["boolean","null"]
+    },
+    "is_sync_vd_desktop": {
+      "type": ["boolean","null"]
+    },
+    "payment_flow": {
+      "type": ["boolean","null"]
+    },
+    "free_photounlim_end_date": {
+      "type": ["integer","null"]
+    },
+    "will_be_overdrawn": {
+      "type": ["boolean","null"]
+    },
+    "hide_screenshots_in_photoslice": {
+      "type": ["boolean","null"]
+    },
+    "is_legal_entity": {
+      "type": ["boolean","null"]
+    },
+    "deletion_restriction_days": {
+      "type": ["integer","null"]
+    },
+    "monthly_traffic_limit": {
+      "type": ["integer","null"]
+    },
+    "monthly_traffic_limit_upgrades": {
+      "type": ["object","null"],
+      "properties": {
+        "pro": {
+          "type": ["integer","null"]
+        }
+      }
+    }
+  }
+}
