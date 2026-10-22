@@ -1,5 +1,5 @@
 # project_autotest_disk
-Автотесты для сервиса Яндекс Диска. 
+Автотесты для сервиса Диск. 
 Включает тесты, проверяющие работу методов GET, POST, PUT и DELETE
 Стек: Java, Maven, JUnit, Rest Assured, Hamcrest.
 Перед запуском тестов необходимо создать файл src/test/resources/config.properties с валидными данными по примеру файла src/test/resources/config.properties.example.
